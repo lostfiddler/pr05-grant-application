@@ -18,21 +18,34 @@ codemirror component.
 
 All 29 errors also deal with import statements, but for codemirror addons and
 extensions in the same 3 files. Removing those lines caused the p5.js web
-editor to build without errors, however, the website no longer functions. My
+editor to build without errors, however the website no longer functions. My
 naive assumption is that version 6 has a different system in place to extend
-the codemirror component with these modules.
+the codemirror component with these modules. Upgrading codemirror also caused
+npm to warn that the dependency codemirror-colorpicker should also be upgraded.
 
-The documentation for codemirror v.6 has a migration guide that looks
-comprehensive. I imagine if I am selected as a grant recepiant for this project
-reading that guide will be the first thing I do and see where that leads me.
+The documentation for codemirror v6 has a migration guide that looks
+comprehensive. If I am selected as a grant recepiant for this project, reading
+that guide will be the first thing I do and see where it leads me. Reading the
+source code for version 6 would benefit me as well, I took a peek and it is
+well commented.
 
 During the 4 months of the project, when I come across a problem that is beyond
 my understanding and not in the documentation, I will first try to
-google/chat-gpt for help. If I am still having trouble I will then reach out to
-my mentor for advice and perhaps even reach out to the author/maintainer of the
-codemirror source code.
+google/chat-gpt for help, then consult the prior work and recommended reading
+linked in the project description. If I am still having trouble I will then
+reach out to my mentor for advice and perhaps even reach out to the
+author/maintainer of the codemirror source code.
 
-1245/3000
+I am unfamiliar with testing and also accessibility, however I am eager to
+learn and am confident I can become competent enough to finish this project
+execptionlly well, especially with guidance.
+
+It has been years since I have used react, but I have used both class based and
+functional components before in the library and converted between the two.
+Since that time I have used vanilla web-components to render html with
+javascript.
+
+1972/3000
 
 # 3. Why are you the right person for this project?
 ---
@@ -60,12 +73,30 @@ will be using p5.js for a long time.
 
 # 5. How will you seek and incorporate feedback during your project?
 ---
-0/1000
+
+I believe requesting a code review, from my mentor or a member of the
+community, whenever I push a commit to my fork of the github repository would
+be a good idea. I could also prepare a draft of my required bi-monthly progress
+report and, again, have my mentor or another member of the community look over
+it and provide feedback.
+
+332/1000
 
 # 6. How do you plan to document your project progress and outcomes?
 ---
 0/1000
 
-# 7. How do you plan to manage your time, particularly if you have other commitments during the      program's duration?
+# 7. How do you plan to manage your time, particularly if you have other commitments during the program's duration?
 ---
-0/1000
+
+I self learn programming full time and my parents cover most of my expenses so
+I will surely be able to commit the majority of my time to this project over
+the next 4 months.
+
+I usually program and study impromptu but if I notice that I am losing focus
+easily or doing something tedious I start 25 minute pomodoros which help
+sustain my productivity.
+
+I will dedicate at least 4 days a week where my focus is primarly on this project.
+
+435/1000
