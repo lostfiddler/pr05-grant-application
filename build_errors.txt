@@ -1,0 +1,519 @@
+p5.js-web-editor on  develop [!] is 📦 v2.12.12 via  v16.14.2
+❯ npm run build
+
+> p5.js-web-editor@2.12.12 build
+> npm run build:client && npm run build:server && npm run build:examples
+
+
+> p5.js-web-editor@2.12.12 build:client
+> cross-env NODE_ENV=production webpack --config webpack/config.prod.js
+
+assets by status 5.77 MiB [cached] 43 assets
+orphan modules 4.15 MiB [orphan] 977 modules
+runtime modules 4.29 KiB 17 modules
+cacheable modules 8.73 MiB
+  modules by path ./node_modules/ 6.29 MiB
+    javascript modules 6.24 MiB 648 modules
+    json modules 46.9 KiB
+      ./node_modules/friendly-words/generated/words.json 44.5 KiB [built] [code generated]
+      ./node_modules/property-information/hast-to-react.json 475 bytes [built] [code generated]
+      ./node_modules/axios/package.json 1.92 KiB [built] [code generated]
+  modules by path ./client/ 2.45 MiB
+    modules by path ./client/utils/*.js 131 KiB 5 modules
+    modules by path ./client/modules/ 111 KiB 2 modules
+    + 3 modules
+
+WARNING in ./client/modules/IDE/components/ConsoleInput.jsx 48:17-27
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Console.jsx 28:0-42 261:92-104
+ @ ./client/modules/IDE/pages/IDEView.jsx 19:0-44 221:48-55 267:50-57
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 90:6-16
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 126:17-27
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 269:10-29
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 362:8-27
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 417:8-27
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 425:18-32
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 426:16-30
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 431:8-27
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 431:33-52
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/modules/IDE/components/Editor/index.jsx 480:34-48
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 89:6-34
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 106:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 115:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 121:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 126:8-36
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 131:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 136:8-36
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 141:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 149:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 157:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 171:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 179:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 198:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 218:8-36
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 224:4-17
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 329:6-23
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 342:20-38
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 343:16-33
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 346:8-25
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 350:8-25
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 378:6-23
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 391:20-38
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 392:16-33
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 395:8-25
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 399:8-25
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 422:54-68
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 422:86-100
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 481:0-24
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 484:0-34
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 487:0-38
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 490:0-38
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 493:0-28
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 494:0-28
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 497:0-31
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 498:0-27
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+WARNING in ./client/utils/codemirror-search.js 501:0-30
+export 'default' (imported as 'CodeMirror') was not found in 'codemirror' (possible exports: EditorView, basicSetup, minimalSetup)
+ @ ./client/modules/IDE/components/Editor/index.jsx 70:0-45
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 33:0-33
+Module not found: Error: Package path ./mode/css/css is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 34:0-37
+Module not found: Error: Package path ./mode/clike/clike is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 35:0-48
+Module not found: Error: Package path ./addon/selection/active-line is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 36:0-36
+Module not found: Error: Package path ./addon/lint/lint is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 37:0-47
+Module not found: Error: Package path ./addon/lint/javascript-lint is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 38:0-40
+Module not found: Error: Package path ./addon/lint/css-lint is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 39:0-41
+Module not found: Error: Package path ./addon/lint/html-lint is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 40:0-42
+Module not found: Error: Package path ./addon/fold/brace-fold is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 41:0-44
+Module not found: Error: Package path ./addon/fold/comment-fold is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 42:0-40
+Module not found: Error: Package path ./addon/fold/foldcode is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 43:0-42
+Module not found: Error: Package path ./addon/fold/foldgutter is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 44:0-43
+Module not found: Error: Package path ./addon/fold/indent-fold is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 45:0-40
+Module not found: Error: Package path ./addon/fold/xml-fold is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 46:0-42
+Module not found: Error: Package path ./addon/comment/comment is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 47:0-35
+Module not found: Error: Package path ./keymap/sublime is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 48:0-46
+Module not found: Error: Package path ./addon/search/searchcursor is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 49:0-52
+Module not found: Error: Package path ./addon/search/matchesonscrollbar is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 50:0-51
+Module not found: Error: Package path ./addon/search/match-highlighter is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 51:0-46
+Module not found: Error: Package path ./addon/search/jump-to-line is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 52:0-45
+Module not found: Error: Package path ./addon/edit/matchbrackets is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 53:0-45
+Module not found: Error: Package path ./addon/edit/closebrackets is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 54:0-51
+Module not found: Error: Package path ./addon/selection/mark-selection is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/modules/IDE/components/Editor/index.jsx 55:0-40
+Module not found: Error: Package path ./addon/hint/css-hint is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/utils/htmlmixed.js 9:31-65
+Module not found: Error: Package path ./mode/xml/xml is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/components/Editor/index.jsx 65:0-37
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/utils/htmlmixed.js 9:95-129
+Module not found: Error: Package path ./mode/css/css is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Use @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/utils/htmlmixed.js
+Module not found: Error: Package path ./mode/xml/xml is not exported from package C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror (see exports field in C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\codemirror\package.json)
+ @ ./client/modules/IDE/components/Editor/index.jsx 65:0-37
+ @ ./client/modules/IDE/pages/IDEView.jsx 27:0-42 223:88-94 263:31-37
+ @ ./client/routes.jsx 13:0-50 62:13-20 80:13-20 92:13-20 95:13-20 116:13-20
+ @ ./client/index.jsx 10:0-31 25:31-38
+
+ERROR in ./client/styles/main.scss
+Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):
+ModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: Can't find stylesheet to import.
+  ╷
+9 │ @import '../../node_modules/codemirror/lib/codemirror';
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+  client\styles\main.scss 9:9  root stylesheet
+    at processResult (C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\webpack\lib\NormalModule.js:760:19)
+    at C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\webpack\lib\NormalModule.js:862:5
+    at C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\loader-runner\lib\LoaderRunner.js:400:11
+    at C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\loader-runner\lib\LoaderRunner.js:252:18
+    at context.callback (C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\loader-runner\lib\LoaderRunner.js:124:13)
+    at Object.loader (C:\Users\doof1\Desktop\p5.js-web-editor\node_modules\sass-loader\dist\index.js:69:5)
+ @ ./client/index.jsx 14:0-29
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack 5.76.0 compiled with 29 errors and 47 warnings in 57889 ms
