@@ -78,8 +78,9 @@ writing code and watching videos teaching programming.
 From a raspberry pi, I self host an Apache web-server I use as a gateway for
 node.js http applications. I am currently reading "Nature of Code" and am
 making a website that hosts all of the code examples I have read and my
-solutions to the challenges in the book. I enjoy working on the website along
-side reading the book, and I intend to add different versions of the
+solutions to the challenges in the book,
+https://github.com/lostfiddler/animations-wiki. I enjoy working on the website
+along side reading the book, and I intend to add different versions of the
 examples or maybe just animations/interactions inspired from them.
 
 I am a Jamaican immigrant and my participation will align with the Processing
