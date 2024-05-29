@@ -1,14 +1,25 @@
 # 1. What is your motivation for contributing to Processing and p5.js projects?
----
 
-I want to challenge myself. I want to experience working alongside a community.
-I want guidance from a more senior programmer. I want for my career to lean
-more towards creative areas, working alongside creative people.
+I want to challenge myself. In the past I have done two coding tasks that I
+have been compensated for, but nothing as professional as this, with a
+time frame as long and with comparable requirements.
 
-280/1500
+I wish to accelerate the development of my career as a programmer, and be able
+to sustain myself financially through this practice so I can devote even more of
+my time to it.
+
+I want to experience working alongside a community of creative programmers and
+guidance from a more senior programmer. If I am a recipient of this grant these
+things will be new to me, and I believe the experience will ingrain habits and
+grant wisdom that otherwise would be more difficult to acquire.
+
+One of my favorite programming books I am currently reading is "The Nature of
+Code" which makes heavy use of the processing/p5.js library. As a fan, the
+prospect of being more involved is really exciting.
+
+855/1500
 
 # 2. Briefly describe your understanding of the technical challenges associated with this project and outline your approach to solving them.
----
 
 Running the command 'npm build' after upgrading codemirror to version 6.0.1 in
 package.json generated 47 warnings and 29 errors. I was able to remove the 47
@@ -24,7 +35,7 @@ the codemirror component with these modules. Upgrading codemirror also caused
 npm to warn that the dependency codemirror-colorpicker should also be upgraded.
 
 The documentation for codemirror v6 has a migration guide that looks
-comprehensive. If I am selected as a grant recepiant for this project, reading
+comprehensive. If I am selected as a grant recipient for this project, reading
 that guide will be the first thing I do and see where it leads me. Reading the
 source code for version 6 would benefit me as well, I took a peek and it is
 well commented.
@@ -38,56 +49,63 @@ author/maintainer of the codemirror source code.
 
 I am unfamiliar with testing and also accessibility, however I am eager to
 learn and am confident I can become competent enough to finish this project
-execptionlly well, especially with guidance.
+exceptionally well, especially with guidance.
 
 It has been years since I have used react, but I have used both class based and
-functional components before in the library and converted between the two.
+functional components before in the framework, and converted between the two.
 Since that time I have used vanilla web-components to render html with
-javascript.
+JavaScript.
 
 1972/3000
 
 # 3. Why are you the right person for this project?
----
 
 I have been learning programming for just over 5 years. My focus has been
 mainly on web-development and JavaScript has been the language I have used
 almost exclusively this whole time. Although I have not had any professional
 programming experience, I feel confident in saying I am a competent JavaScript
-programmer.
+programmer. I have skimmed if not read all the JavaScript guides and references
+from https://developer.mozilla.org. I have read "Structure and Interpretations
+of Computer Programs JavaScript Edition", "Eloquent JavaScript", and I am
+currently reading "The Secret Life of Programs" among many other computer
+science and programming books. I have spent thousands of hours reading and
+writing code and watching videos teaching programming.
 
-I self host an Apache web-server I use as a gateway for a few node.js http
-applications. I am currently reading "Nature of Code" (which uses
-processing/p5.js extensively) and am making a website that hosts all of the
-code examples I have read and my solutions to the challenges in the book. I
-enjoy working on the website along side the book a lot, and I intend to add
-different versions of the examples or maybe just animations/interactions
-inspired from them. I imagine this will be a long-term project which means I
-will be using p5.js for a long time.
+From a raspberry pi, I self host an Apache web-server I use as a gateway for
+node.js http applications. I am currently reading "Nature of Code" and am
+making a website that hosts all of the code examples I have read and my
+solutions to the challenges in the book. I enjoy working on the website along
+side reading the book, and I intend to add different versions of the
+examples or maybe just animations/interactions inspired from them.
 
-874/3000
+I am a Jamaican immigrant which aligns with the Processing Foundations goal for DEIA.
+
+1264/3000
 
 # 4. What questions do I have about the project? (optional)
----
+
 0/1000
 
 # 5. How will you seek and incorporate feedback during your project?
----
 
-I believe requesting a code review, from my mentor or a member of the
-community, whenever I push a commit to my fork of the github repository would
-be a good idea. I could also prepare a draft of my required bi-monthly progress
-report and, again, have my mentor or another member of the community look over
-it and provide feedback.
+I believe requesting a code review from my mentor whenever I push a commit to
+my fork of the github repository would be a good idea, and implement any
+suggestions. I could prepare a monthly progress report which could serve as a
+draft of my required bi-monthly progress report and, again, have my mentor look
+over it and provide feedback. I can ask questions or start a thread if I come
+across something I think is interesting in https://discourse.processing.org.
 
-332/1000
+464/1000
 
 # 6. How do you plan to document your project progress and outcomes?
----
+
+On my github account I have created the repository,
+https://github.com/lostfiddler/pr05-grant-application and forked the
+p5.js-web-editor.
+
 0/1000
 
 # 7. How do you plan to manage your time, particularly if you have other commitments during the program's duration?
----
 
 I self learn programming full time and my parents cover most of my expenses so
 I will surely be able to commit the majority of my time to this project over
@@ -97,6 +115,6 @@ I usually program and study impromptu but if I notice that I am losing focus
 easily or doing something tedious I start 25 minute pomodoros which help
 sustain my productivity.
 
-I will dedicate at least 4 days a week where my focus is primarly on this project.
+I will dedicate at least 4 days a week where my focus is primarily on this project.
 
 435/1000
