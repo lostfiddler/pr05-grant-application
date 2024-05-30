@@ -95,7 +95,28 @@ Foundations goal for DEIA.
 
 0/1000
 
-# 5. How will you seek and incorporate feedback during your project?
+# 5. What do you hope to gain from this program?
+
+I would really like to get to know the concerns, requirements, and constraints
+a programmer has to be aware of and deal with in a production environment and
+work on legacy source code.
+
+I would like to get to know a community of programmers. I have had brief
+communications in online communities concerning programming before, however I
+would like to experience more intentional discussions.
+
+I would like to be a part of open source software and learn about the culture.
+
+I would like to have a mentor and possibly other advisors, and receive feedback
+and advice on my code and professional development.
+
+I believe this experience would possibly open the door to a career as a
+programmer, or at least give me the confidence to pursue my first full-time
+programming job more vigorously.
+
+787/1000
+
+# 6. How will you seek and incorporate feedback during your project?
 
 I believe requesting a code review from my mentor whenever I push a commit to
 my fork of processing/p5.js-web-editor and the repository I will use to
@@ -111,7 +132,7 @@ forums.
 
 605/1000
 
-# 6. How do you plan to document your project progress and outcomes?
+# 7. How do you plan to document your project progress and outcomes?
 
 On my github account I have created the repository,
 https://github.com/lostfiddler/pr05-grant-application. I can use this to host
@@ -128,7 +149,7 @@ view.
 
 598/1000
 
-# 7. How do you plan to manage your time, particularly if you have other commitments during the program's duration?
+# 8. How do you plan to manage your time, particularly if you have other commitments during the program's duration?
 
 I learn programming full time and my parents cover most of my expenses so
 I will surely be able to commit the majority of my time to this project over
